@@ -24,19 +24,21 @@
             <nav class="navbar navbar-expand-lg bg-white ">
                 <div class="container-fluid">
                     <img src="logo.png" alt="Swiggy Logo" width="80px" height="80px">
-                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
-                        data-bs-target="#offcanvasWithBothOptions"
-                        aria-controls="offcanvasWithBothOptions">Others</button>
+                    <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+                        aria-controls="staticBackdrop">
+                        Other
+                    </button>
 
-                    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1"
-                        id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                    <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+                        aria-labelledby="staticBackdropLabel">
                         <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
+                            <h5 class="offcanvas-title" id="staticBackdropLabel">Offcanvas</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
                                 aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body">
-                            <p></p>
+                            <div>
+                            </div>
                         </div>
                     </div>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
